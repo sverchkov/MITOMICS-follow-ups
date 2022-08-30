@@ -1,0 +1,9 @@
+name: mitomics-2
+channels:
+  - conda-forge
+dependencies:
+  - r-targets
+  - r-tidyverse
+  - r-here
+  - r-readxl
+
