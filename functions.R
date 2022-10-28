@@ -3,15 +3,14 @@
 # Licensed under the BSD 3-Clause License
 # Copyright (c) 2019, Yuriy Sverchkov
 
-library(magrittr)
-library(drake)
-library(tidyverse)
-library(ggplot2)
-library(patchwork)
+#library(magrittr)
+#library(tidyverse)
+#library(ggplot2)
+#library(patchwork)
 #library(tidygraph)
 #library(visNetwork)
 #library(plotly)
-library(qvalue)
+#library(qvalue)
 
 # Data loading for 2021-08-19 data
 

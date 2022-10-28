@@ -1,9 +1,23 @@
 name: mitomics-2
 channels:
   - conda-forge
+  - bioconda
 dependencies:
+  - r
+  - r-rlang
   - r-targets
   - r-tidyverse
   - r-here
   - r-readxl
-
+  - bioconductor-qvalue
+  - r-processx
+  - python=3.10 # PaCMAP requires python < 3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - numba
+  - gcc # Need modern GCC to successfully install pacmap prereq
+  - pip:
+    - pacmap
+variables:
+  R_LIBS_USER: ~/mitomics-RLibs
